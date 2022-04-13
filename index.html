@@ -10,20 +10,23 @@
 </head>
 <body>
   <!-- cabecera de mi pagina  -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <header class="bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#inicio">Aprendiendo Git</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pedidos.html">pedidos</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,7 +40,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link " href="https://www.linkedin.com/" target="_blank">Linkedin</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -50,7 +53,7 @@
   </header>
 
   <!-- seccion principal de carruceles -->
-  <main>
+  <main id="inicio">
     <section>
       <h1>Aqui carruceles </h1>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -79,7 +82,7 @@
     </section>
     
     <!-- seccion de formularios -->
-    <section>
+    <section id="contacto">
       <form>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -102,6 +105,7 @@
 
   <footer>
     <h1>Footer 2022</h1>
+    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"></a>
   </footer>
   
 
